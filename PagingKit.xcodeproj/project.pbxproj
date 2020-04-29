@@ -31,6 +31,7 @@
 		6EC140CC1F0940F40054B514 /* PagingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC140BE1F0940F40054B514 /* PagingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EC140D71F09410F0054B514 /* PagingMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC140D51F09410F0054B514 /* PagingMenuViewController.swift */; };
 		6EC140D81F09410F0054B514 /* PagingContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC140D61F09410F0054B514 /* PagingContentViewController.swift */; };
+		9041FF01245971CD002B4B41 /* SwipeCellPriorityScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9041FF00245971CD002B4B41 /* SwipeCellPriorityScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		6EC140CB1F0940F40054B514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EC140D51F09410F0054B514 /* PagingMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuViewController.swift; sourceTree = "<group>"; };
 		6EC140D61F09410F0054B514 /* PagingContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingContentViewController.swift; sourceTree = "<group>"; };
+		9041FF00245971CD002B4B41 /* SwipeCellPriorityScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCellPriorityScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				2B668C5E1F1395BE008A0694 /* PagingMenuView.swift */,
 				2B283F041FA8A2BD00DA2FE4 /* Array+NSLayoutConstraint.swift */,
 				2BC16A331FFE35AA00CB884A /* PagingKitProxy.swift */,
+				9041FF00245971CD002B4B41 /* SwipeCellPriorityScrollView.swift */,
 			);
 			path = PagingKit;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				2BC16A321FFE355F00CB884A /* UnderlineFocusView.swift in Sources */,
 				2BE185F623AB7AAE00B457ED /* ContentAppearanceHandler.swift in Sources */,
 				2BD0FB23232F7ED600BA3894 /* OverlayMenuCell.swift in Sources */,
+				9041FF01245971CD002B4B41 /* SwipeCellPriorityScrollView.swift in Sources */,
 				2BC16A361FFE3B3E00CB884A /* TitleLabelMenuViewCell.swift in Sources */,
 				2BD0FB24232F7ED600BA3894 /* OverlayFocusView.swift in Sources */,
 				6EC140D81F09410F0054B514 /* PagingContentViewController.swift in Sources */,
