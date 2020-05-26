@@ -251,8 +251,8 @@ public class PagingContentViewController: UIViewController {
     }
     
     /// Return scrollView that the content view controller uses to show the contents.
-    public let scrollView: UIScrollView = {
-        let scrollView = UIScrollView()
+    public let scrollView: SwipeCellPriorityScrollView = {
+        let scrollView = SwipeCellPriorityScrollView()
         scrollView.isPagingEnabled = true
         scrollView.showsVerticalScrollIndicator = false
         scrollView.showsHorizontalScrollIndicator = false
